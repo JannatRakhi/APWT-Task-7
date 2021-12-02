@@ -19,9 +19,9 @@ const ProductDetails = () => {
     return (
         <div>
             <NavBar></NavBar>
-            <div className="d-flex justify-content-center align-items-center" style={{ height: "80vh" }}>
+            <div className="d-flex justify-content-center align-items-center bg-secondary" style={{ height: "80vh"}}>
 
-                <div>
+                <div class="border border-primary rounded bg-light ">
                     <h2>Product Details</h2>
                     <h6>Product Id: {selectedProduct?.id}</h6>
                     <h6>Product Name: {selectedProduct?.name}</h6>
